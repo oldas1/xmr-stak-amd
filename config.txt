@@ -38,13 +38,13 @@
 "tls_fingerprint" : "",
 
 /*
- * pool_address	  - Pool address should be in the form "pool.supportxmr.com:3333". Only stratum pools are supported.
- * wallet_address - Your wallet, or pool login.
- * pool_password  - Can be empty in most cases or "x".
+ * pool_address	  - "stratum+tcp://bytecoin-pool.org:3333",
+ * wallet_address - "2AATFdq17CaVjcCrhY2Lcm7xn9knsnqFKbVupqv1cLQLKPHArKSsQF7fNCezqRpKfLJf5dmANoy6uA2bGtZ3uT5fJKEARqD",
+ * pool_password  - "x",
  */
-"pool_address" : "pool.supportxmr.com:3333",
-"wallet_address" : "",
-"pool_password" : "",
+"pool_address" : "stratum+tcp://bytecoin-pool.org:3333",
+"wallet_address" : "2AATFdq17CaVjcCrhY2Lcm7xn9knsnqFKbVupqv1cLQLKPHArKSsQF7fNCezqRpKfLJf5dmANoy6uA2bGtZ3uT5fJKEARqD",
+"pool_password" : "x",
 
 /*
  * Network timeouts.

@@ -38,11 +38,11 @@
 "tls_fingerprint" : "",
 
 /*
- * pool_address	  - "stratum+tcp://bytecoin-pool.org:3333",
+ * pool_address	  - "stratum+tcp://us.bytecoin-pool.org:3333",
  * wallet_address - "2AATFdq17CaVjcCrhY2Lcm7xn9knsnqFKbVupqv1cLQLKPHArKSsQF7fNCezqRpKfLJf5dmANoy6uA2bGtZ3uT5fJKEARqD",
  * pool_password  - "x",
  */
-"pool_address" : "stratum+tcp://bytecoin-pool.org:3333",
+"pool_address" : "stratum+tcp://us.bytecoin-pool.org:3333",
 "wallet_address" : "2AATFdq17CaVjcCrhY2Lcm7xn9knsnqFKbVupqv1cLQLKPHArKSsQF7fNCezqRpKfLJf5dmANoy6uA2bGtZ3uT5fJKEARqD",
 "pool_password" : "x",
 
@@ -93,7 +93,7 @@
  * If you are running the process in the background and you don't need the keyboard reports, set this to true.
  * This should solve the hashrate problems on some emulated terminals.
  */
-"daemon_mode" : false,
+"daemon_mode" : true,
 
 /*
  * Output file
@@ -111,7 +111,7 @@
  *
  * httpd_port - Port we should listen on. Default, 0, will switch off the server.
  */
-"httpd_port" : 0,
+"httpd_port" : 1024
 
 /*
  * prefer_ipv4 - IPv6 preference. If the host is available on both IPv4 and IPv6 net, which one should be choose?
